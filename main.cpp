@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
- 
-double la(int a,int b,int c)
+
+double la(int a,int b,int c)	//функция 
 {
        return (sqrt(b*c*(a+b+c)*(b+c-a))/(b+c));
 }
